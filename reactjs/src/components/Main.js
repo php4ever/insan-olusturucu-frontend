@@ -9,7 +9,7 @@ function Main() {
     }, []);
 
     const getObject = () => {
-        fetch('https://jsonplaceholder.typicode.com/posts/1')
+        fetch('generator.php')
             .then(res => res.json())
             .then(setData);
     }
